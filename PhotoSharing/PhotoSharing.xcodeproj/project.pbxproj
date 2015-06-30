@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5AACC611B21B818005F12E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AACC601B21B818005F12E0 /* main.m */; };
+		A5AACC641B21B818005F12E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AACC631B21B818005F12E0 /* AppDelegate.m */; };
+		A5AACC671B21B818005F12E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AACC661B21B818005F12E0 /* ViewController.m */; };
+		A5AACC6A1B21B818005F12E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AACC681B21B818005F12E0 /* Main.storyboard */; };
+		A5AACC6C1B21B818005F12E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AACC6B1B21B818005F12E0 /* Images.xcassets */; };
+		A5AACC6F1B21B818005F12E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5AACC6D1B21B818005F12E0 /* LaunchScreen.xib */; };
+		A5AACC7B1B21B819005F12E0 /* PhotoSharingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AACC7A1B21B819005F12E0 /* PhotoSharingTests.m */; };
+		A5AACC881B21B893005F12E0 /* SplashVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AACC861B21B893005F12E0 /* SplashVC.m */; };
+		A5AACC891B21B893005F12E0 /* SplashVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5AACC871B21B893005F12E0 /* SplashVC.xib */; };
+		A5AACC941B21BE71005F12E0 /* StartUpScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AACC921B21BE71005F12E0 /* StartUpScreen.m */; };
+		A5AACC951B21BE72005F12E0 /* StartUpScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5AACC931B21BE71005F12E0 /* StartUpScreen.xib */; };
+		A5AACC991B21BEB9005F12E0 /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AACC971B21BEB9005F12E0 /* RegisterVC.m */; };
+		A5AACC9A1B21BEB9005F12E0 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5AACC981B21BEB9005F12E0 /* RegisterVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5AACC751B21B819005F12E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5AACC531B21B818005F12E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5AACC5A1B21B818005F12E0;
+			remoteInfo = PhotoSharing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5AACC5B1B21B818005F12E0 /* PhotoSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5AACC5F1B21B818005F12E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5AACC601B21B818005F12E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5AACC621B21B818005F12E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5AACC631B21B818005F12E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5AACC651B21B818005F12E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5AACC661B21B818005F12E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5AACC691B21B818005F12E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5AACC6B1B21B818005F12E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5AACC6E1B21B818005F12E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A5AACC741B21B819005F12E0 /* PhotoSharingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSharingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5AACC791B21B819005F12E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5AACC7A1B21B819005F12E0 /* PhotoSharingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoSharingTests.m; sourceTree = "<group>"; };
+		A5AACC851B21B893005F12E0 /* SplashVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashVC.h; sourceTree = "<group>"; };
+		A5AACC861B21B893005F12E0 /* SplashVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashVC.m; sourceTree = "<group>"; };
+		A5AACC871B21B893005F12E0 /* SplashVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashVC.xib; sourceTree = "<group>"; };
+		A5AACC901B21B9CD005F12E0 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		A5AACC911B21BE70005F12E0 /* StartUpScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartUpScreen.h; sourceTree = "<group>"; };
+		A5AACC921B21BE71005F12E0 /* StartUpScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartUpScreen.m; sourceTree = "<group>"; };
+		A5AACC931B21BE71005F12E0 /* StartUpScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartUpScreen.xib; sourceTree = "<group>"; };
+		A5AACC961B21BEB9005F12E0 /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
+		A5AACC971B21BEB9005F12E0 /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
+		A5AACC981B21BEB9005F12E0 /* RegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5AACC581B21B818005F12E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5AACC711B21B819005F12E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5AACC521B21B818005F12E0 = {
+			isa = PBXGroup;
+			children = (
+				A5AACC5D1B21B818005F12E0 /* PhotoSharing */,
+				A5AACC771B21B819005F12E0 /* PhotoSharingTests */,
+				A5AACC5C1B21B818005F12E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5AACC5C1B21B818005F12E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5AACC5B1B21B818005F12E0 /* PhotoSharing.app */,
+				A5AACC741B21B819005F12E0 /* PhotoSharingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5AACC5D1B21B818005F12E0 /* PhotoSharing */ = {
+			isa = PBXGroup;
+			children = (
+				A5AACC9B1B21C2A2005F12E0 /* Frameworks */,
+				A5AACC8B1B21B8FF005F12E0 /* Helper Class */,
+				A5AACC8A1B21B8E9005F12E0 /* class */,
+				A5AACC841B21B848005F12E0 /* Splash Screen */,
+				A5AACC621B21B818005F12E0 /* AppDelegate.h */,
+				A5AACC631B21B818005F12E0 /* AppDelegate.m */,
+				A5AACC651B21B818005F12E0 /* ViewController.h */,
+				A5AACC661B21B818005F12E0 /* ViewController.m */,
+				A5AACC681B21B818005F12E0 /* Main.storyboard */,
+				A5AACC6B1B21B818005F12E0 /* Images.xcassets */,
+				A5AACC6D1B21B818005F12E0 /* LaunchScreen.xib */,
+				A5AACC5E1B21B818005F12E0 /* Supporting Files */,
+			);
+			path = PhotoSharing;
+			sourceTree = "<group>";
+		};
+		A5AACC5E1B21B818005F12E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5AACC5F1B21B818005F12E0 /* Info.plist */,
+				A5AACC601B21B818005F12E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5AACC771B21B819005F12E0 /* PhotoSharingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5AACC7A1B21B819005F12E0 /* PhotoSharingTests.m */,
+				A5AACC781B21B819005F12E0 /* Supporting Files */,
+			);
+			path = PhotoSharingTests;
+			sourceTree = "<group>";
+		};
+		A5AACC781B21B819005F12E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5AACC791B21B819005F12E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5AACC841B21B848005F12E0 /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A5AACC851B21B893005F12E0 /* SplashVC.h */,
+				A5AACC861B21B893005F12E0 /* SplashVC.m */,
+				A5AACC871B21B893005F12E0 /* SplashVC.xib */,
+			);
+			name = "Splash Screen";
+			sourceTree = "<group>";
+		};
+		A5AACC8A1B21B8E9005F12E0 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				A5AACC911B21BE70005F12E0 /* StartUpScreen.h */,
+				A5AACC921B21BE71005F12E0 /* StartUpScreen.m */,
+				A5AACC931B21BE71005F12E0 /* StartUpScreen.xib */,
+				A5AACC961B21BEB9005F12E0 /* RegisterVC.h */,
+				A5AACC971B21BEB9005F12E0 /* RegisterVC.m */,
+				A5AACC981B21BEB9005F12E0 /* RegisterVC.xib */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+		A5AACC8B1B21B8FF005F12E0 /* Helper Class */ = {
+			isa = PBXGroup;
+			children = (
+				A5AACC901B21B9CD005F12E0 /* Constant.h */,
+			);
+			name = "Helper Class";
+			sourceTree = "<group>";
+		};
+		A5AACC9B1B21C2A2005F12E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5AACC5A1B21B818005F12E0 /* PhotoSharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5AACC7E1B21B819005F12E0 /* Build configuration list for PBXNativeTarget "PhotoSharing" */;
+			buildPhases = (
+				A5AACC571B21B818005F12E0 /* Sources */,
+				A5AACC581B21B818005F12E0 /* Frameworks */,
+				A5AACC591B21B818005F12E0 /* Resources */,
+				A5AACCA41B21C7EB005F12E0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoSharing;
+			productName = PhotoSharing;
+			productReference = A5AACC5B1B21B818005F12E0 /* PhotoSharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5AACC731B21B819005F12E0 /* PhotoSharingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5AACC811B21B819005F12E0 /* Build configuration list for PBXNativeTarget "PhotoSharingTests" */;
+			buildPhases = (
+				A5AACC701B21B819005F12E0 /* Sources */,
+				A5AACC711B21B819005F12E0 /* Frameworks */,
+				A5AACC721B21B819005F12E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5AACC761B21B819005F12E0 /* PBXTargetDependency */,
+			);
+			name = PhotoSharingTests;
+			productName = PhotoSharingTests;
+			productReference = A5AACC741B21B819005F12E0 /* PhotoSharingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5AACC531B21B818005F12E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "One Click IT Consultancy ";
+				TargetAttributes = {
+					A5AACC5A1B21B818005F12E0 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A5AACC731B21B819005F12E0 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A5AACC5A1B21B818005F12E0;
+					};
+				};
+			};
+			buildConfigurationList = A5AACC561B21B818005F12E0 /* Build configuration list for PBXProject "PhotoSharing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5AACC521B21B818005F12E0;
+			productRefGroup = A5AACC5C1B21B818005F12E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5AACC5A1B21B818005F12E0 /* PhotoSharing */,
+				A5AACC731B21B819005F12E0 /* PhotoSharingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5AACC591B21B818005F12E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AACC6A1B21B818005F12E0 /* Main.storyboard in Resources */,
+				A5AACC891B21B893005F12E0 /* SplashVC.xib in Resources */,
+				A5AACC6F1B21B818005F12E0 /* LaunchScreen.xib in Resources */,
+				A5AACC9A1B21BEB9005F12E0 /* RegisterVC.xib in Resources */,
+				A5AACC6C1B21B818005F12E0 /* Images.xcassets in Resources */,
+				A5AACC951B21BE72005F12E0 /* StartUpScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5AACC721B21B819005F12E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5AACCA41B21C7EB005F12E0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5AACC571B21B818005F12E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AACC671B21B818005F12E0 /* ViewController.m in Sources */,
+				A5AACC881B21B893005F12E0 /* SplashVC.m in Sources */,
+				A5AACC641B21B818005F12E0 /* AppDelegate.m in Sources */,
+				A5AACC991B21BEB9005F12E0 /* RegisterVC.m in Sources */,
+				A5AACC941B21BE71005F12E0 /* StartUpScreen.m in Sources */,
+				A5AACC611B21B818005F12E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5AACC701B21B819005F12E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AACC7B1B21B819005F12E0 /* PhotoSharingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5AACC761B21B819005F12E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5AACC5A1B21B818005F12E0 /* PhotoSharing */;
+			targetProxy = A5AACC751B21B819005F12E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5AACC681B21B818005F12E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5AACC691B21B818005F12E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5AACC6D1B21B818005F12E0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5AACC6E1B21B818005F12E0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5AACC7C1B21B819005F12E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5AACC7D1B21B819005F12E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5AACC7F1B21B819005F12E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PhotoSharing",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PhotoSharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5AACC801B21B819005F12E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PhotoSharing",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PhotoSharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5AACC821B21B819005F12E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoSharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoSharing.app/PhotoSharing";
+			};
+			name = Debug;
+		};
+		A5AACC831B21B819005F12E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoSharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoSharing.app/PhotoSharing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5AACC561B21B818005F12E0 /* Build configuration list for PBXProject "PhotoSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5AACC7C1B21B819005F12E0 /* Debug */,
+				A5AACC7D1B21B819005F12E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5AACC7E1B21B819005F12E0 /* Build configuration list for PBXNativeTarget "PhotoSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5AACC7F1B21B819005F12E0 /* Debug */,
+				A5AACC801B21B819005F12E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5AACC811B21B819005F12E0 /* Build configuration list for PBXNativeTarget "PhotoSharingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5AACC821B21B819005F12E0 /* Debug */,
+				A5AACC831B21B819005F12E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5AACC531B21B818005F12E0 /* Project object */;
+}
